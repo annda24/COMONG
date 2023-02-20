@@ -1,0 +1,39 @@
+[
+    {
+        "id":0,
+        "moimName":"스스로 홈인테리어",
+        "moimHost":1,
+        "member":[1,2],
+        "category":"",
+        "keywords":["interior","self interior","self interior tip","DIY","furniture"],
+        "img":"",
+        "bg":""
+    },{
+        "id":1,
+        "moimName":"냥님이 하시는대로",
+        "moimHost":4,
+        "member":[4,5],
+        "category":"",
+        "keywords":["",""],
+        "img":"",
+        "bg":""
+    },{
+        "id":2,
+        "moimName":"사진찍고 한끼하고",
+        "moimHost":6,
+        "member":[6,7],
+        "category":"",
+        "keywords":["",""],
+        "img":"",
+        "bg":""
+    },{
+        "id":3,
+        "moimName":"개발자 취업준비",
+        "moimHost":3,
+        "member":[3,8,9],
+        "category":"",
+        "keywords":["",""],
+        "img":"",
+        "bg":""
+    }
+]

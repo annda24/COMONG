@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "name":"friends 1",
+        "img":"user1.png",
+        "member_code_num":1,
+        "last_msg":"test message",
+        "last_msg_time":"12:34",
+        "not_check_msg":1
+    },{
+        "id":2,
+        "name":"friends 2",
+        "img":"user2.png",
+        "member_code_num":2,
+        "last_msg":"test message",
+        "last_msg_time":"12:34",
+        "not_check_msg":2
+    },{
+        "id":3,
+        "name":"friends 3",
+        "img":"user3.png",
+        "member_code_num":3,
+        "last_msg":"test message",
+        "last_msg_time":"12:34",
+        "not_check_msg":3
+    },{
+        "id":4,
+        "name":"moim 1",
+        "img":"moimImg_1.png",
+        "member_code_num":[4,5,6],
+        "last_msg":"test message",
+        "last_msg_time":"12:34",
+        "not_check_msg":4
+    },{
+        "id":5,
+        "name":"moim 2",
+        "img":"moimImg_2.png",
+        "member_code_num":[7,8,9],
+        "last_msg":"test message",
+        "last_msg_time":"12:34",
+        "not_check_msg":5
+    },{
+        "id":6,
+        "name":"moim 3",
+        "img":"moimImg_3.png",
+        "member_code_num":[10,11,12],
+        "last_msg":"test message",
+        "last_msg_time":"12:34",
+        "not_check_msg":6
+    }
+]
