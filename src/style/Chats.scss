@@ -1,0 +1,29 @@
+// chats.scss
+main#Chats {
+    padding:10px;
+    box-sizing:border-box;
+    
+    .search_box {
+        position:relative;
+        width:100%;margin-bottom:10px;
+    
+        fieldset {
+            i {
+                position:absolute;top:0;right:0;
+                transform:translateY(20%);
+                font-size:1.3em;
+                color:#ccc;
+            }
+            input {
+                width:100%;border:none;
+                padding-bottom:5px;
+                color:#333;
+                border-bottom:2px solid #ccc;
+                &::placeholder {color:ccc;}
+                &:focus {
+                    outline:none;
+                }
+            }
+        }
+    }
+}

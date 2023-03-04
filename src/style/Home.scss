@@ -1,0 +1,41 @@
+// Home.scss
+#home_inner{
+    width:100%;min-height:calc(100vh - 140px);
+    padding:15px;padding-bottom:85px;box-sizing:border-box;
+    position:relative;
+    transition:all 400ms ease 0s;
+
+    &.album {
+        column-count:3;column-gap:10px;
+
+        article > *:not(.img), .img>*:not(ul) {display:none;}
+        article .img li:not(.on) {display:none;} /* li.on만 block*/
+    }
+
+    &.card {
+        width:100%;height:30vw;
+    }
+
+    .viewMode {
+        position:fixed;right:-35px;bottom:90px;z-index:20;
+        background:#0071fb;padding:15px;
+        border-top-left-radius:50%;
+        border-bottom-left-radius:50%;
+        opacity:0.7;transition:all 300ms ease 0s;
+        cursor:pointer;
+        border:none;
+
+        i {
+            color:#fff;font-size:25px;
+            transition:all 400ms ease;
+        }
+
+        &:hover {
+            opacity:1;right:0;
+        }
+    }
+
+    section {
+        width:100%;
+    }
+}

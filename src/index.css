@@ -1,0 +1,10 @@
+/* common.css */
+@import url(reset.css);
+
+html,body {width:100%;}
+body {font-size:12px;}
+a:link, a:visited {color:#000;text-decoration:none;}
+a:hover, a:focus, a:active {color:#000;text-decoration:none;}
+img {max-width:100%;}
+
+.empty {background:url(../public/images/empty.jpg) 0 0 no-repeat;background-size:cover;}

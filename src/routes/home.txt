@@ -1,0 +1,21 @@
+return (
+    <>
+        <Header tab_name="Home" />
+        <main id="Home">
+            <div id="home_inner" className="card">
+                <a href="#" className="viewMode">
+                    <i className="fa-solid fa-border-all"></i>
+                </a>
+                {post.map( (post)=> {return(
+                    <Post
+                        id={post.id} 
+                        writer={post.writerID}
+                        title={post.title}
+                        time={post.upload_time}
+                    />
+                )} )}
+            </div>
+        </main>
+        <Nav tab_name="Home" />
+    </>
+)

@@ -1,0 +1,14 @@
+html, body {
+    width:100%;height:100%;
+    
+    div#root {
+        width:100%;height:100%;
+
+        main {
+            width:100%;
+            &#Home, &#Moim, &#Search, &#Chats {
+                position:absolute;left:0;top:70px;
+            }
+        }
+    }
+}
